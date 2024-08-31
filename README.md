@@ -8,11 +8,11 @@
 
 ---
 
-**TEMA:** Copia de seguridad o respaldo
+**TEMA:** Copia de seguridad o respaldo.
 
-**DOCENTE:** Ramiro Mora Jiménez
+**DOCENTE:** Ramiro Mora Jiménez.
 
-**ALUMNO:** Beder Danilo Casa Condori
+**ALUMNO:** Beder Danilo Casa Condori.
 
 ---
 
