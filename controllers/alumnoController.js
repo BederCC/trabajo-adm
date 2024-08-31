@@ -1,17 +1,15 @@
 const Alumno = require('../model/Alumno')
-
 //Mostrar
 module.exports.mostrar = (req, res)=>{
     Alumno.find({}, (error, alumnos)=>{
         if(error) {
             return res.status(500).json({
-                message: 'Error mostrando los alumnos'
+                message: 'Error mostrando a los alumnos'
             })
         }
         return res.render('index', {alumnos: alumnos})
     })
 }
-
 //Crear
 module.exports.crear = (req, res)=>{
     //console.log(req.body)
@@ -28,7 +26,6 @@ module.exports.crear = (req, res)=>{
         res.redirect('/')
     })
 }
-
 //Editar
 module.exports.editar = (req,res)=>{
     const id = req.body.id_editar
@@ -43,7 +40,6 @@ module.exports.editar = (req,res)=>{
         res.redirect('/')
     })
 }
-
 //Borrar
 module.exports.borrar = (req, res)=>{
     const id = req.params.id
