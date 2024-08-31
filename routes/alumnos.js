@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 const alumnoController = require('../controllers/alumnoController')
-
+//Rutas
 //Mostrar todos los alumnos (GET)
 router.get('/', alumnoController.mostrar)
 //Crear alumno (POST)
